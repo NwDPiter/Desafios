@@ -101,7 +101,7 @@ def listar_conta_bancaria(contas):
 
 ###########[CRIAR, VALIDAR, LISTAR(USUÁRIOS e CONTAS)]###########}
 
-# Função principal (Chama as outras funções)
+# Função principal (Chamar as outras funções)
 def main():
     QUANTIADADE_SAQUES = 3
     AGENCIA = '0001'
