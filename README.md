@@ -2,4 +2,4 @@
 
 - Criando um Sistema Bancário com Python
 
-- Backend com FastAPI (Em Desenvolvimento)
+- Backend com FastAPI 
