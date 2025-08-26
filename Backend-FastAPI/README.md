@@ -35,11 +35,6 @@ Crie um arquivo `.env` na raiz com as seguintes variáveis para desenvolvimento:
 
 ```env
 DB_URL=postgresql+asyncpg://admin:admin@localhost:5432/doceria
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=admin
-DB_PASSWORD=admin
-DB_NAME=doceria
 HASH_PEPPER=gY8nZkXvLzQ9eJvU5wT1mA3sKx7cQp9dZr2fGv6hT0sY
 ```
 

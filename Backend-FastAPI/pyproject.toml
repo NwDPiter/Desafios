@@ -1,5 +1,5 @@
 [project]
-name = "backend-FastAPI"
+name = "curso-api"
 version = "0.1.0"
 description = ""
 authors = [
