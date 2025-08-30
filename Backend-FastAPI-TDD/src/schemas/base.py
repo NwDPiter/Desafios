@@ -1,0 +1,11 @@
+import uuid
+
+from datetime import datetime
+
+from pydantic import BaseModel, Field, UUID4
+
+
+class BaseSchemaMixin(BaseModel):
+    id: UUID4 = Field(default_factory=uuid.uuid4)
+    created_at: datetime = Field(default_factory=lambda: datetime.utcnow())
+    updated_at: datetime = Field(default_factory=lambda: datetime.utcnow())
